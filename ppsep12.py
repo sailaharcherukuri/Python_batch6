@@ -37,11 +37,11 @@ print(batch)
 #We wanted to remove entire data but keep the list as it is -->clear
 batch.clear()
 print(batch)
-'''
+
 #lets work on Dictionaries
 #dict --> {k:v}, keys must be unique
 #keys can be int.float.string,list
-
+'''
 details = {}
 #print(len(details))
 details['batch'] = ['PFS6']
@@ -54,6 +54,7 @@ details.update({'branch':('hyd','vijayawada'),
                 'Subjects':{'python','Aptitude','Softskills'}})
 print(details)
 print(len(details))
+
 #first always check the type --> dict--> keys()
 #keys(),values(),items()
 print(details.keys()) #returns only keys
